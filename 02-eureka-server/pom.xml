@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.limitless</groupId>
-    <artifactId>eukea-servcer</artifactId>
+    <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>02-eukea-servcer</name>
-    <description>02-eukea-servcer</description>
+    <name>02-eureka-server</name>
+    <description>02-eureka-server</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
