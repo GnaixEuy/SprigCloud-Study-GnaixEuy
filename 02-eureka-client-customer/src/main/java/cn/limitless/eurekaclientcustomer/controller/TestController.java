@@ -21,7 +21,7 @@ public class TestController {
 
 	@RequestMapping(value = {"/test"})
 	public String test(){
-		final ResponseEntity<String> result = restTemplate.getForEntity("http://02-eureka-client-provider/test", String.class);
+		final ResponseEntity<String> result = restTemplate.getForEntity("http://02-EUREKA-CLIENT-PROVIDER/test", String.class);
 		return "第一个SpringCloud的服务提供者" + result.getBody();
 	}
 }
