@@ -7,7 +7,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka9100:9100/eureka
+      defaultZone: http://localhost:9100/eureka
 spring:
   application:
     name: eureka9200

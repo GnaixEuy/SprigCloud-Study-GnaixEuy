@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 03-eureka-cluster-client-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9100/eureka, http://localhost:9200/eureka
+server:
+  port: 8081
